@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/EDowning2000/FaceToFace/issues"
   },
-  "homepage": "https://github.com/EDowning2000/FaceToFace#readme"
+  "homepage": "https://github.com/EDowning2000/FaceToFace#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
 }
