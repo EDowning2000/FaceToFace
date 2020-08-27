@@ -1,26 +1,25 @@
 {
-  "name": "facetoface",
   "version": "1.0.0",
-  "description": "A secure application that allows you to connect with your peers in a work at home environment",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "devStart": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EDowning2000/FaceToFace.git"
-  },
+  "keywords": [
+    "video Chat",
+    "communication app"
+  ],
   "author": "Emerson Downing",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/EDowning2000/FaceToFace/issues"
-  },
-  "homepage": "https://github.com/EDowning2000/FaceToFace#readme",
   "dependencies": {
-    "ejs": "^3.1.5",
+    "ejs": "^3.1.3",
     "express": "^4.17.1",
-    "nodemon": "^2.0.4",
+    "node": "^14.8.0",
+    "node-modules": "^1.0.1",
     "socket.io": "^2.3.0",
-    "uuidv4": "^6.2.3"
+    "uuid": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
